@@ -1,41 +1,48 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# === C++ ===
+# Object files and binaries
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
 *.out
-*.app
 
-# debug information files
-*.dwo
+# Compiled libraries and pybind11 output
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Build and output directories
+build/
+bin/
+obj/
+dist/
+
+# === Python ===
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (Crucial for portability)
+venv/
+.env
+env/
+ENV/
+
+# Distribution and packaging
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === IDE & System ===
+# Version control for IDE settings (VS Code, JetBrains)
+.vscode/
+.idea/
+.vs/
+
+# System specific files
+.DS_Store
+Thumbs.db
+*.log
