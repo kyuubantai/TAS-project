@@ -1,0 +1,3 @@
+/home/kaname/mini-projet-ia/build/CMakeFiles/mon_moteur_cpp.dir
+/home/kaname/mini-projet-ia/build/CMakeFiles/edit_cache.dir
+/home/kaname/mini-projet-ia/build/CMakeFiles/rebuild_cache.dir

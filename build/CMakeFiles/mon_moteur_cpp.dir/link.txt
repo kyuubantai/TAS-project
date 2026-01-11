@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -shared  -o /home/kaname/mini-projet-ia/mon_moteur_cpp.cpython-311-x86_64-linux-gnu.so CMakeFiles/mon_moteur_cpp.dir/src/main.cpp.o 
